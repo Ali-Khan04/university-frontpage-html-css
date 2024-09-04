@@ -1,0 +1,21 @@
+.footer,
+.footer2 {
+  display: flex;
+  background-color: #002d62;
+  color: aliceblue;
+  position: relative;
+  bottom: 0;
+  flex-shrink: 0;
+}
+.footer2 {
+  border-top: 2px solid white;
+}
+.heading,
+.Boss,
+.main2 {
+  flex-grow: 1;
+}
+li:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}

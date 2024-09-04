@@ -1,0 +1,39 @@
+.Boss {
+  display: flex;
+  flex-direction: row;
+  margin-left: 30px;
+  margin-top: 10px;
+}
+.container {
+  margin-top: 10px;
+  display: grid;
+  grid-template-columns: 60px 400px;
+  grid-template-rows: repeat(4, 50px);
+  gap: 20px;
+}
+
+.text,
+.date {
+  border: 1px solid rgb(159, 159, 159);
+  border-bottom: 4px solid #002d62;
+  cursor: pointer;
+  transition: transform 0.5s;
+}
+.date {
+  color: #002d62;
+  font-weight: bold;
+  transition: color 0.5s, background-color 0.5s;
+}
+.date:hover {
+  color: white;
+  background-color: #002d62;
+}
+.text:hover {
+  transform: scale(1.05);
+}
+
+.uni {
+  width: 500px;
+  height: auto;
+  margin-left: 170px;
+}
