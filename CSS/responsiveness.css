@@ -1,0 +1,52 @@
+@media (max-width: 1286px) {
+  .Boss {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .Boss .container {
+    width: 100%;
+  }
+
+  .main2 {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (max-width: 1024px) {
+  .main2 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .head1,
+  .head2 {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 768px) {
+  .main2 {
+    grid-template-columns: 1fr;
+  }
+
+  .footer,
+  .footer2 {
+    text-align: center;
+  }
+}
+
+@media (max-width: 580px) {
+  .head-1 {
+    font-size: 12px;
+    padding: 8px;
+  }
+
+  .heading h2 {
+    font-size: 18px;
+  }
+
+  .footer ul,
+  .footer2 ul {
+    padding: 0;
+  }
+}

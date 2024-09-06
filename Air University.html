@@ -1,12 +1,33 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
     <title>Air University</title>
-    <link rel="stylesheet" href="upper_body.css" />
-    <link rel="stylesheet" href="lowermiddleportion.css" />
-    <link rel="stylesheet" href="image.css" />
-    <link rel="stylesheet" href="middlebody.css" />
-    <link rel="stylesheet" href="footer.css" />
+    <link
+      rel="stylesheet"
+      href="C:\Users\GAMING\Downloads\Projects\Project-2\CSS\upper_body.css"
+    />
+    <link
+      rel="stylesheet"
+      href="C:\Users\GAMING\Downloads\Projects\Project-2\CSS\lowermiddleportion.css"
+    />
+    <link
+      rel="stylesheet"
+      href="C:\Users\GAMING\Downloads\Projects\Project-2\CSS\image.css"
+    />
+    <link
+      rel="stylesheet"
+      href="C:\Users\GAMING\Downloads\Projects\Project-2\CSS\middlebody.css"
+    />
+    <link
+      rel="stylesheet"
+      href="C:\Users\GAMING\Downloads\Projects\Project-2\CSS\footer.css"
+    />
+    <link
+      rel="stylesheet"
+      href="C:\Users\GAMING\Downloads\Projects\Project-2\CSS\responsiveness.css"
+    />
   </head>
 
   <body>
@@ -22,7 +43,10 @@
       <button class="head-1">AULMS</button>
     </div>
     <div class="head2">
-      <img src="air.png" alt="" />
+      <img
+        src="C:\Users\GAMING\Downloads\Projects\Project-2\Images\air.png"
+        alt=""
+      />
       <button class="head-1">HOME</button>
       <button class="head-1">ABOUT</button>
       <button class="head-1">ADMISSION</button>
@@ -50,7 +74,13 @@
         <div class="date">24 July</div>
         <div class="text">SDG Annual Report 2024</div>
       </div>
-      <div class="un1"><img class="uni" src="uni.jpeg" alt="" /></div>
+      <div class="un1">
+        <img
+          class="uni"
+          src="C:\Users\GAMING\Downloads\Projects\Project-2\Images\uni.jpeg"
+          alt=""
+        />
+      </div>
     </div>
 
     <div class="heading">
@@ -58,42 +88,66 @@
     </div>
     <div class="main2">
       <div class="item">
-        <img src="comp.jpeg" alt="" />
+        <img
+          src="C:\Users\GAMING\Downloads\Projects\Project-2\Images\comp.jpeg"
+          alt=""
+        />
         <button>Computer Engineering</button>
       </div>
 
       <div class="item">
-        <img src="electrical.jpeg" alt="" />
+        <img
+          src="C:\Users\GAMING\Downloads\Projects\Project-2\Images\electrical.jpeg"
+          alt=""
+        />
         <button>Electrical Engineering</button>
       </div>
 
       <div class="item">
-        <img src="mechinical.jpeg" alt="" />
+        <img
+          src="C:\Users\GAMING\Downloads\Projects\Project-2\Images\mechinical.jpeg"
+          alt=""
+        />
         <button>Mechinacial Engineering</button>
       </div>
 
       <div class="item">
-        <img src="mechatronics.jpeg" alt="" />
+        <img
+          src="C:\Users\GAMING\Downloads\Projects\Project-2\Images\mechatronics.jpeg"
+          alt=""
+        />
         <button>Mechatronics Engineering</button>
       </div>
 
       <div class="item">
-        <img src="aero.jpeg" alt="" />
+        <img
+          src="C:\Users\GAMING\Downloads\Projects\Project-2\Images\aero.jpeg"
+          alt=""
+        />
         <button>Aerospace Enginnering</button>
       </div>
 
       <div class="item">
-        <img src="nuclear.jpeg" alt="" />
+        <img
+          src="C:\Users\GAMING\Downloads\Projects\Project-2\Images\nuclear.jpeg"
+          alt=""
+        />
         <button>Nuclear Engineering</button>
       </div>
 
       <div class="item">
-        <img src="en.jpeg" alt="" />
+        <img
+          src="C:\Users\GAMING\Downloads\Projects\Project-2\Images\en.jpeg"
+          alt=""
+        />
         <button>Enviromental Engineering</button>
       </div>
 
       <div class="item">
-        <img src="bioi.jpeg" alt="" />
+        <img
+          src="C:\Users\GAMING\Downloads\Projects\Project-2\Images\bioi.jpeg"
+          alt=""
+        />
         <button>Biomedical Engineering</button>
       </div>
     </div>
@@ -127,7 +181,10 @@
         Address
         <li>Main Campus PAF Complex E-9 Islamabad.</li>
       </ul>
-      <p>Copyrights © 2024 Air University Islamabad</p>
+      <p>Copyrights © <span id="year"></span> Air University Islamabad</p>
     </div>
+    <script>
+      document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
   </body>
 </html>

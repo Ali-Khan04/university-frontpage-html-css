@@ -5,7 +5,7 @@
   color: aliceblue;
   position: relative;
   bottom: 0;
-  flex-shrink: 0;
+  flex-wrap: wrap;
 }
 .footer2 {
   border-top: 2px solid white;
