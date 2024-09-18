@@ -12,6 +12,7 @@
   justify-content: flex-end;
   margin-top: 20px;
   margin-left: 80px;
+  margin-bottom: 30px;
 }
 .item img {
   width: 100%;
@@ -41,4 +42,12 @@
 
 .item img:hover {
   transform: scale(1.02);
+}
+a {
+  text-decoration: none;
+  color: white;
+  transition: color 0.2s;
+}
+a:hover {
+  color: orange;
 }

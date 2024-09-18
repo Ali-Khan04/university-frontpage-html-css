@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>%= department %> | Air University</title>
+    <link rel="stylesheet" href="/CSS/upper_body.css" />
+    <link rel="stylesheet" href="/CSS/faculty.css" />
+    <link rel="stylesheet" href="../CSS/lowermiddleportion.css" />
+    <link rel="stylesheet" href="../CSS/image.css" />
+    <link rel="stylesheet" href="../CSS/middlebody.css" />
+    <link rel="stylesheet" href="../CSS/responsiveness.css" />
+  </head>
+  <body>
+    <div class="head1">
+      <button class="head-1">ADS AND TENDERS</button>
+      <button class="head-1">EMAIL</button>
+      <button class="head-1">ONLINE PORTAL</button>
+      <button class="head-1">CAMPUSES</button>
+      <button class="head-1">AFFILIATED INSITUTES</button>
+      <button class="head-1">CONSITUENT UNITS</button>
+      <button class="head-1">JOBS</button>
+      <button class="head-1">LIBRARY</button>
+      <button class="head-1">AULMS</button>
+    </div>
+    <div class="head2">
+      <img src="/Images/air.png" alt="Air University" />
+      <button class="head-1">HOME</button>
+      <button class="head-1">ABOUT</button>
+      <button class="head-1">ADMISSION</button>
+      <button class="head-1">FACULTIES</button>
+      <button class="head-1">RESEARCH</button>
+      <button class="head-1">OFFICES</button>
+      <button class="head-1">COUNSELING</button>
+      <button class="head-1">AUBIC</button>
+      <button class="head-1">CONTACT US</button>
+    </div>
+
+    <div class="heading">
+      <h2>Default Department</h2>
+    </div>
+
+    <div class="content">
+      <p>Will be added in the future</p>
+    </div>
+
+    <div class="footer">
+      <ul>
+        Quick Links
+        <li>Ads and Tender</li>
+        <li>AUBIC</li>
+        <li>AU Social Media Policy & Guidelines</li>
+        <li>Counseling Advisory Services</li>
+        <li>IT HelpDesk</li>
+        <li>Job Opportunities</li>
+        <li>Library</li>
+      </ul>
+      <ul>
+        Constituent Units
+        <li>College of Flying Training, Risalpur</li>
+        <li>College of Aviation Safety Management, Karachi</li>
+        <li>Fazaia Medical College, Islamabad</li>
+        <li>Fazaia Ruth Pfau Medical College, Karachi</li>
+      </ul>
+    </div>
+    <div class="footer2">
+      <ul>
+        AU UAN
+        <li>051-111-247-864</li>
+      </ul>
+      <ul>
+        Address
+        <li>Main Campus PAF Complex E-9 Islamabad.</li>
+      </ul>
+      <p>Copyrights © <span id="year"></span> Air University Islamabad</p>
+    </div>
+    <script>
+      const yearElement = document.getElementById("year");
+      if (yearElement) {
+        const currentYear = new Date().getFullYear();
+        yearElement.textContent = currentYear;
+      } else {
+        console.err("The year element was not found.");
+      }
+    </script>
+  </body>
+</html>

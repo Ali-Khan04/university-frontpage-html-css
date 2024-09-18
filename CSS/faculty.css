@@ -1,22 +1,32 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+.content {
+  flex: 1;
+}
+
 .footer,
 .footer2 {
   display: flex;
   background-color: #002d62;
   color: aliceblue;
-  position: relative;
-  bottom: 0;
-  left: 0;
-  right: 0;
   flex-wrap: wrap;
+  padding: 20px;
+  text-align: center;
 }
+
 .footer2 {
   border-top: 2px solid white;
 }
-.heading,
-.Boss,
-.main2 {
-  flex-grow: 1;
-}
+
 li:hover {
   cursor: pointer;
   text-decoration: underline;
